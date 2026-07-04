@@ -59,7 +59,7 @@ flowchart LR
 
 | Path | Purpose |
 | --- | --- |
-| `ppo_glassbox_llm-final.ipynb` | Main executed notebook |
+| `ppo_glassbox_llm.ipynb` | Main executed notebook |
 | `requirements.txt` | Python dependencies |
 | `run-full-project.sh` | Local runner and Nebius VM runner |
 | `assets/` | README visuals extracted from the executed notebook |
@@ -85,7 +85,7 @@ Run the full project locally:
 ./run-full-project.sh
 ```
 
-The local runner creates `.venv`, installs `requirements.txt`, loads `.env`, executes `ppo_glassbox_llm-final.ipynb`, then opens Jupyter Notebook in the browser.
+The local runner creates `.venv`, installs `requirements.txt`, loads `.env`, executes `ppo_glassbox_llm.ipynb`, then opens Jupyter Notebook in the browser.
 
 Useful local overrides:
 

@@ -27,7 +27,7 @@ load_env_defaults() {
 
 load_env_defaults
 
-NOTEBOOK="${NOTEBOOK:-ppo_glassbox_llm-final.ipynb}"
+NOTEBOOK="${NOTEBOOK:-ppo_glassbox_llm.ipynb}"
 VENV_DIR="${VENV_DIR:-.venv}"
 PYTHON_BIN="$VENV_DIR/bin/python"
 JUPYTER_BIN="$VENV_DIR/bin/jupyter"

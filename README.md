@@ -1,4 +1,4 @@
-# PPO Glass-Box LLM Lab
+# PPO Glass-Box LLM
 
 [![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/jupyter-notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)

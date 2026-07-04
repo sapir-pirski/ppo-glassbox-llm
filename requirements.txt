@@ -1,0 +1,11 @@
+# Notebook runtime
+notebook>=7.6,<7.7
+ipykernel>=7.3,<7.4
+
+# PPO demo dependencies
+torch>=2.12,<2.13
+transformers>=5.13,<5.14
+matplotlib>=3.11,<3.12
+
+# Optional interactive controls used in the final notebook cell
+ipywidgets>=8.1,<8.2

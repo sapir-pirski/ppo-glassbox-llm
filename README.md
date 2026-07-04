@@ -10,6 +10,22 @@ A compact, rerunnable PPO/RLHF-style notebook for seeing the full training loop 
 
 The current profile is tuned for the Nebius H100 VM run: longer completions, 5-seed exercise sweeps, confidence intervals, and copied-back notebook outputs.
 
+## Visual Overview
+
+<p align="center">
+  <img src="assets/exercise-dashboard.png" alt="PPO dial dashboard with reward, KL, clip fraction, and approx KL diagnostics" width="100%">
+</p>
+
+The executed notebook includes compact PPO diagnostics, beta trade-off sweeps, and multi-seed exercise summaries.
+
+| PPO training metrics | Beta reward/KL sweep |
+| --- | --- |
+| <img src="assets/training-metrics.png" alt="PPO training curves for reward, KL, clip fraction, approx KL, entropy, value loss, and value clipping" width="100%"> | <img src="assets/beta-sweep.png" alt="Beta sweep comparing reward gain against KL drift" width="100%"> |
+
+| Reward/KL frontier | Extra PPO diagnostics |
+| --- | --- |
+| <img src="assets/exercise-tradeoffs.png" alt="Final reward versus KL trade-off across exercise dials" width="100%"> | <img src="assets/exercise-summary.png" alt="Ratio variance, value loss, and value clip fraction summary" width="100%"> |
+
 ## Highlights
 
 | Area | What is included |
@@ -46,6 +62,7 @@ flowchart LR
 | `ppo_glassbox_llm-final.ipynb` | Main executed notebook |
 | `requirements.txt` | Python dependencies |
 | `run-full-project.sh` | Local runner and Nebius VM runner |
+| `assets/` | README visuals extracted from the executed notebook |
 | `.env.example` | Environment template |
 | `.gitignore` | Local secrets/cache/output exclusions |
 | `LICENSE` | MIT license |
